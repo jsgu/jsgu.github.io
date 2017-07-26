@@ -1,20 +1,20 @@
 
 ### JSGU 工程实例
 
-1. 初始化工程(自动生成package.json)
+#### 初始化工程(自动生成package.json)
 
 ```
 $ npm init
 ```
 
 
-2. 安装常用打包工具
+#### 安装常用打包工具
 
 ```
 npm i  -D autoprefixer-loader babel-core babel-loader babel-preset-es2015 clean-webpack-plugin css-loader extract-text-webpack-plugin file-loader html-webpack-plugin  less-loader style-loader url-loader  webpack webpack-dev-server
 ```
 
-3. 配置webpack.config.js
+#### 配置webpack.config.js
 
 ```
 const config={
@@ -86,7 +86,7 @@ module.exports = {
 }
 ```
 
-4. 配置package.json
+####4. 配置package.json
 
 ```
 "scripts": {
@@ -98,7 +98,7 @@ module.exports = {
   }
 ```
 
-5. github 操作
+#### github 操作
 
 ```
 //初始化github
@@ -113,21 +113,17 @@ git push -u origin master
 git pull  && git add . && git commit -m "update" &&  git push
 ```
 
-6. 常用命令行
+#### 常用命令行
 
 ```
 //监听
 $ npm run watch
-
 //编译打包
 $ npm run build
-
 //启动本地服务
 $ npm run server
-
 //清空目录
 $ npm run clear
-
 //git提交
 $ npm run commit
 ```
