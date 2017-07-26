@@ -86,7 +86,7 @@ module.exports = {
 }
 ```
 
-####4. 配置package.json
+#### 配置package.json
 
 ```
 "scripts": {
