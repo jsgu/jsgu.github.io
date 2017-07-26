@@ -1,0 +1,6 @@
+node_modules/
+
+blog/
+site/
+*.log
+.git
