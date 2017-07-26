@@ -36,7 +36,7 @@ git commit -m "first commit"
 git remote add origin https://github.com/jsgu/case.git
 git push -u origin master
 
-//添加提交(常用 可配置在package.json)
+//添加提交(常用 可配置在package.json [ $ npm run commit ])
 git pull  && git add . && git commit -m "update" &&  git push
 ```
 
