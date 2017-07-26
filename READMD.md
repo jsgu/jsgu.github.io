@@ -1,7 +1,7 @@
 
 ### JSGU 工程实例
 
-1. 初始化工程(package.json)
+1. 初始化工程(自动生成package.json)
 
 ```
 $ npm init
@@ -101,7 +101,6 @@ module.exports = {
 5. github 操作
 
 ```
-
 //初始化github
 echo "# case" >> README.md
 git init
