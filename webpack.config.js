@@ -30,7 +30,7 @@ module.exports = {
     libraryTarget: "umd"
 	},
 	devServer: {
-	  hot: true,
+	  // hot: true,
 	  contentBase: path.join(__dirname, distPath),
 	  compress: true,
     port: 9000//设置默认监听端口，如果省略，默认为"8080"
@@ -66,11 +66,11 @@ module.exports = {
 	plugins: [
       new CleanWebpackPlugin([distPath]),
       new HtmlWebpackPlugin({title:config.pageTitle,template: './src/index.html', minify:{removeComments:true,collapseWhitespace:true}}),
-      new webpack.optimize.CommonsChunkPlugin('common'),//提取公共代码
-      new webpack.HotModuleReplacementPlugin(), // 热加载插件
-      new webpack.LoaderOptionsPlugin({minimize: true}),//压缩css等
-      new webpack.BannerPlugin('© 2017 道心. @mail=>liuhangbiaoo@gmail.com,@url=>www.jsgu.net'),
-      new webpack.optimize.UglifyJsPlugin({compress:{warnings:false}}),//压缩
+      // new webpack.optimize.CommonsChunkPlugin('common'),//提取公共代码
+      // new webpack.HotModuleReplacementPlugin(), // 热加载插件
+      // new webpack.LoaderOptionsPlugin({minimize: true}),//压缩css等
+      // new webpack.BannerPlugin('© 2017 道心. @mail=>liuhangbiaoo@gmail.com,@url=>www.jsgu.net'),
+      // new webpack.optimize.UglifyJsPlugin({compress:{warnings:false}}),//压缩
       new ExtractTextPlugin("css/[name].[hash:8].css"),//输出css目录名称
   ]
 }

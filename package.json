@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack --config webpack.config.js",
-    "server": "webpack-dev-server --open",
+    "server": "webpack-dev-server --open webpack.config.js",
     "clear": "rm -rf ./dist/**",
     "commit": "git pull  && git add . && git commit -m 'update' &&  git push"
   },
