@@ -14,6 +14,7 @@ document.getElementById('app').innerHTML=[
 	'<div id="content-wrapper">',
 	  '<div class="inner clearfix">',
 	    '<section id="main-content">',
+	    '<div id="sg"></div>',
 	    '</section>',
 	    '<aside id="sidebar">',
 	    '</aside>',
@@ -38,11 +39,14 @@ function tpl(id,title,code){
 }
 
 /* 渲染视图 */
-document.getElementById('main-content').innerHTML=[tpl('svg1','直方图','$ npm init'),tpl('svg2','柱状图','$ npm init')].join("");
+// document.getElementById('main-content').innerHTML=[tpl('svg1','直方图','$ npm init'),tpl('svg2','柱状图','$ npm init')].join("");
+
+import * as dchart from './dchart'
+dchart.default({d3:d3,el:'#sg',margin:{left:40}})
+// dchart.init('xxxxxxxx')
 
 /* 导航 */
-const h4=document.getElementById('main-content').getElementsByTagName('h4');
-console.log(h4)
+
 // console.log(d3.selectAll("#main-content").data([4, 8, 15, 16, 23, 42]).enter().html(function(d) { return "<p>I’m number gogo BY " + d + "!</p>"; }))
 
 
