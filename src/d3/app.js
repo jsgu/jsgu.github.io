@@ -42,8 +42,16 @@ function tpl(id,title,code){
 // document.getElementById('main-content').innerHTML=[tpl('svg1','直方图','$ npm init'),tpl('svg2','柱状图','$ npm init')].join("");
 
 import * as dchart from './dchart'
+
+// console.log(dchart.default('aaaaaaa'))
+// console.log(dchart.default('aaaaaaa'))
 dchart.default({d3:d3,el:'#sg',margin:{left:40}})
 // dchart.init('xxxxxxxx')
+
+   // var ok = require('./dchart.js');
+   // console.log(ok());
+
+
 
 /* 导航 */
 

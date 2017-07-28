@@ -8,8 +8,8 @@
  */
 
 const config={
-	pathName:'d3',
-	pageTitle:'D3 数据可视化',
+	pathName:'canvas',
+	pageTitle:'HTML 5 canvas 运用',
 }
 
 const distPath='dist/'+config.pathName;

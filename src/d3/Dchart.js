@@ -136,3 +136,13 @@
 	}
 	return dchart;
 }));
+
+// !function(a) {
+//     "use strict";
+//     function test(d) {
+//         return "Hello World!"+(d||'bba')
+//     }
+//     "function" == typeof define && define.amd ? define(function() {
+//         return test
+//     }) : "object" == typeof module && module.exports ? module.exports = test : a.hello = test
+// }(this);
