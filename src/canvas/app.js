@@ -1186,12 +1186,12 @@ var canvasBase={
 		ctx.arc(70, 80, 10, 0, 2 * Math.PI, false);
 		ctx.fill();
 		console.log(ctx)
-		ctx.addHitRegion({id: "circle"});
-		canvas.addEventListener("mousemove", function(event){
-		  if(event.region) {
-		    alert("hit region: " + event.region);
-		  }
-		});
+		// ctx.addHitRegion({id: "circle"});
+		// canvas.addEventListener("mousemove", function(event){
+		//   if(event.region) {
+		//     alert("hit region: " + event.region);
+		//   }
+		// });
 	  }
 	},
 	getpixelcolour:function(canvas,x, y) {
@@ -1352,7 +1352,14 @@ $('main-content').innerHTML=[
 	tpl('canvas47','点击区域和无障碍访问HitRegion-点击区域（hit region）',canvasBase.HitRegion),
 	tpl('canvas48','Canvas代码片段[网页代码]-Chaining methods',canvasBase.getpixelamount),
 ].join('');
+/*===================================自动生成目录树===============================================*/
+(function(){var mh=document.getElementById('main-content').getElementsByTagName('h4'),
+	mhArr=[];for (var i = 0; i < mh.length; i++) {
+		mhArr.push('<p><a href="#'+mh[i].id+'">'+mh[i].id+'</a></p>')}
+		document.getElementById('sidebar').innerHTML=mhArr.join('');
+}())
 
+/*===================================渲染视图-canvas===============================================*/
 $('canvas1') &&	canvasBase.draw('canvas1');
 $('canvas2') &&	canvasBase.Drawing_shapes('canvas2');
 $('canvas3') &&	canvasBase.Drawing_shapes1('canvas3');
@@ -1408,10 +1415,6 @@ $('canvas45') && canvasBase.ImageData1('canvas45');
 $('canvas46') && canvasBase.ImageData2('canvas46');
 $('canvas47') && canvasBase.HitRegion('canvas47');
 $('canvas48') && canvasBase.CanvasCode('canvas48');//不执行只展示
-
-
-/*===================================自动生成目录树===============================================*/
-(function(){var mh=document.getElementById('main-content').getElementsByTagName('h4'),mhArr=[];for (var i = 0; i < mh.length; i++) {mhArr.push('<p><a href="#'+mh[i].id+'">'+mh[i].id+'</a></p>')}document.getElementById('sidebar').innerHTML=mhArr.join('');}())
 
 
 
