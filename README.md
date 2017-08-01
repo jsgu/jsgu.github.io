@@ -1,7 +1,7 @@
 
 ### JSGU 工程实例
 
-[D3](https://jsgu.github.io/dist/d3/index.html)、[canvas](https://jsgu.github.io/dist/canvas/index.html)、[综合整理文档及工具]((https://jsgu.github.io/dist/doc/index.html)
+[D3](https://jsgu.github.io/dist/d3/index.html)、[canvas](https://jsgu.github.io/dist/canvas/index.html)、[综合整理文档及工具](https://jsgu.github.io/dist/doc/index.html)
 
 #### 初始化工程(自动生成package.json)
 

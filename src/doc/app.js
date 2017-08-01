@@ -57,7 +57,8 @@ $('main-content').innerHTML=[
 	tpl('tool10','GB2312简体中文编码表',docEach([d.toolStr10,d.toolStr10a])),
 	tpl('tool11','Java/C++/C语言/PHP/Python运算符优先级对照表',docEach([d.toolStr11,d.toolStr11a,d.toolStr11b,d.toolStr11c,d.toolStr11d,d.toolStr11e])),
 	tpl('tool12','特殊符号大全',docEach([d.toolStr12])),
-	tpl('tool13','UI尺寸规范对照表',docEach([d.toolStr13,d.toolStr13a])),
+	tpl('tool13','UI尺寸规范对照表',docEach([d.toolStr13])),
+	tpl('tool14','Web尺寸规范',docEach([d.toolStr14,d.toolStr14a])),
 ].join('');
 /*===================================自动生成目录树===============================================*/
 (function(){var mh=document.getElementById('main-content').getElementsByTagName('h4'),

@@ -54,7 +54,7 @@ module.exports = {
       }, {
           test: /\.(png|jpe?g|gif)(\?.*)?$/,
           exclude: /^node_modules$/,
-          use: 'url-loader?limit=10000&name=[sha512:hash:base64:7].[ext]&outputPath=/img/', //注意后面那个limit的参数，当你图片大小小于这个限制的时候，会自动启用base64编码图片
+          use: 'url-loader?limit=100000&name=[sha512:hash:base64:7].[ext]&outputPath=img/', //注意后面那个limit的参数，当你图片大小小于这个限制的时候，会自动启用base64编码图片
       },
       {
           test: /\.(js|es6)$/,
