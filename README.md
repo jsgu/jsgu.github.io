@@ -1,7 +1,7 @@
 
 ### JSGU 工程实例
 
-[web开发规范及建议](https://jsgu.github.io/_book/index.html)、[综合整理文档及工具](https://jsgu.github.io/dist/doc/index.html)、[D3](https://jsgu.github.io/dist/d3/index.html)、[canvas](https://jsgu.github.io/dist/canvas/index.html)
+[web开发规范及建议](https://jsgu.github.io/book/index.html)、[综合整理文档及工具](https://jsgu.github.io/dist/doc/index.html)、[D3](https://jsgu.github.io/dist/d3/index.html)、[canvas](https://jsgu.github.io/dist/canvas/index.html)
 
 #### 初始化工程(自动生成package.json)
 
