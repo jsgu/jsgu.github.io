@@ -8,7 +8,7 @@
  */
 
 const config={
-	pathName:'doc',
+	pathName:'chart',
 	pageTitle:'常用参考表对照表',
 }
 
